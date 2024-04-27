@@ -1,0 +1,51 @@
+
+html,
+body {
+    height: 100%;
+    background-color: #f8f9fa; /* Warna latar belakang */
+}
+
+.form-signin {
+    max-width: 400px;
+    padding: 3rem;
+    margin: auto;
+    text-align: center; /* Memusatkan elemen form */
+    background-color: #ffffff; /* Warna latar belakang form */
+    border-radius: 10px; /* Melengkungkan sudut form */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Efek bayangan */
+}
+
+.form-signin .form-floating:focus-within {
+    z-index: 2;
+}
+
+.form-signin input[type="text"],
+.form-signin input[type="password"] {
+    border: none; /* Menghilangkan garis tepi input */
+    border-bottom: 1px solid #ced4da; /* Garis bawah input */
+    border-radius: 0; /* Melengkungkan sudut input */
+    padding: 0.75rem;
+    margin-bottom: 1.5rem;
+    text-align: center; /* Memusatkan teks dalam input */
+    background-color: transparent; /* Hapus latar belakang input */
+}
+
+.form-signin input[type="text"]:focus,
+.form-signin input[type="password"]:focus {
+    border-color: #007bff; /* Warna garis tepi saat fokus */
+    box-shadow: none; /* Hapus bayangan saat fokus */
+}
+
+.form-signin button {
+    border: none; /* Menghilangkan garis tepi tombol */
+    border-radius: 25px; /* Melengkungkan sudut tombol */
+    padding: 10px 20px;
+    font-size: 18px;
+    transition: background-color 0.3s;
+    background-color: #007bff; /* Warna latar belakang tombol */
+    color: #ffffff; /* Warna teks tombol */
+}
+
+.form-signin button:hover {
+    background-color: #0056b3; /* Warna latar belakang tombol saat dihover */
+}
