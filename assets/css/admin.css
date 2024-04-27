@@ -1,0 +1,48 @@
+body {
+	background-color: #f4f6f9;
+	font-family: poppins;
+}
+.colorungu {
+	color: #40407a;
+}
+.navungu {
+	background-color: #40407a;
+}
+.btn-ungu {
+	background-color: #40407a;
+	color: white;
+}
+.btn-ungu:hover {
+	background-color: #262649;
+	color: white;
+}
+.navputih {
+	background-color: #ffffff;
+}
+.nav-active {
+	color: #40407a;
+	font-weight: 600;
+	border-bottom: 2px solid #40407a;
+}
+.icon-bg-1 {
+	font-size: 50px;
+	background-color: #40407a;
+	padding: 3px 15px;
+	border-radius: 5px;
+}
+.icon-bg-2 {
+	font-size: 50px;
+	background-color: #ff5a47;
+	padding: 3px 15px;
+	border-radius: 5px;
+}
+.icon-bg-3 {
+	font-size: 50px;
+	background-color: #5af27d;
+	padding: 3px 15px;
+	border-radius: 5px;
+}
+.edit-button{
+  cursor:pointer;
+  color: #5af27d;
+}
