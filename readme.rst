@@ -1,3 +1,6 @@
+Ini adalah aplikasi berbasis web yang berfungsi sebagai pengolah data SPP
+
+
 ###################
 What is CodeIgniter
 ###################
